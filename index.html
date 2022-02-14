@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Cupcake 🎂</title>
+       
+       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    
+        <main>
+    <center>    <div id="hbd">Happy Valentine's Day </div></center>
+            
+            
+        </main>
+       
+       
+       
+    </head>
+    <body>
+    
+    <!-- heart-->
+    
+    <svg class="heart" viewBox="0 0 32 29.6">
+  <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+    c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+</svg> 
+
+   <!--candel light--> 
+   
+ <center>   <div class="a">
+           <div id="flame"></div>
+           </div>
+           <div id="wax"></div><br>
+      
+           </center><br>
+       </div><br>
+       
+      <!--cake-->
+      
+    <div class="caketop"></div>
+    
+        <div class="btscake">
+    
+        <div class="decor">
+      
+  <div class="decor1"></div>                     
+  <div class="decor2"></div>
+  <div class="decor3"></div>
+  <div class="decor4"></div>
+  <div class="decor5"></div>              </div>
+  <div class="decor6"></div>
+
+
+
+       
+        <!-- Gift with link  -->
+            
+            
+            
+         <a href="  https://youtu.be/MTYg-tHNyBk"> 
+         <div id="lid">
+            <div id="ribbon1"></div>
+            <div id="ribbon2"></div>
+            <div id="ribbon3"></div>
+        </div>
+        <div id="box">
+            <div id="ribbon4"></div>
+        </div>
+        <h1><br><br></h1><h2>Tap on Gift</h2> <h1>👇</h1>       </a>
+                
+        
+        
+    <h4> 😝surprise 😝  </h4>
+    
+            
+ <!-- audio-->
+        
+     <audio controls style=" display:none;" loop   id="a"  >
+ <source id="audio" src="https://www.8notes.com/school/mp32/piano/happy_birthday.mp3">
+    </body>
+    
+    <!-- java script for alert box and aduio controls --->
+    
+    <script src="https://www.wpromotions.eu/confetti.min.js"></script>
+    
+    <script>window.onload = function(){
+    confetti.start(); 
+    Swal.fire("Happy Valentine's Day  🎉🎊\n")
+    var audio= document.getElementById("a");
+audio.currentTime =26;
+function play(){
+    audio.play()
+}
+setInterval(function(){
+
+if(audio.currentTime>100){
+
+audio.currentTime =28;
+audio.play();
+}
+
+},1000);
+
+
+
+
+window.addEventListener("mouseover",play);
+window.addEventListener("click",play);
+
+}</script>
+
+
+       
+
+</html>

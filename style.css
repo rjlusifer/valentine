@@ -1,0 +1,219 @@
+
+@import url(http://weloveiconfonts.com/api/?family=entypo); [class*="entypo-"]:before {
+    font-family: 'entypo', sans-serif; 
+    color: red;
+     }
+   @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+   *{
+       margin:0px;
+       padding:0px;
+   }
+   
+.containers{
+    max-width: 955px;
+    border: 2px solid black;
+    margin:auto;
+    height: 80vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+
+   body {
+      font-family: 'Mochiy Pop P One', sans-serif;
+      background:skyblue;
+     font-size: 1.5em;
+     text-align: center;
+     text-transform: uppercase;
+   }
+   
+
+   
+   .heart {
+     fill: red;
+     position: relative;
+     top: 5px;
+     width: 50px;
+     animation: pulse 2s ease infinite
+   }
+   
+   @keyframes pulse {
+     0% { transform: scale(1); }
+     50% { transform: scale(1.2); }
+     100% { transform: scale(1); }
+   }
+   
+   
+   @keyframes move{
+       100%{
+       background-position:250px;
+       }
+   }
+   
+   
+   #flame{
+       background-color:orange;
+       height:20px;
+       width:20px;
+       border-radius:0 50% 50% 50%;
+       transform:rotateZ(45deg);
+       box-shadow:0px 0px 10px 7px yellow;
+       margin-top:60px;
+   }
+   .a{
+       animation:wave 3s linear infinite ;
+   }
+   
+   @keyframes wave{
+       0%{
+           transform:rotateZ(0deg);
+       }
+       25%{
+           transform:rotateZ(-15deg);
+       }
+       50%{
+           transform:rotateZ(0deg);
+       }
+       75%{
+           transform:rotateZ(15deg);
+       }
+       100%{
+           transform:rotateZ(0deg);
+       }
+   }
+   #wax{
+       background-color:#C8A2C8;
+       height:100px;
+       width:20px;
+       margin-top:0;
+       border:1px solid purple;
+   }
+   
+   
+        .caketop{
+       width: 30vh;
+       height: 30vh;
+       position:absolute;
+       background:radial-gradient(circle at 10% 10%,#B1D4E0, #145DA0, #C8A2C8);
+       top:40%;
+       left:50%;
+       border:2px solid purple;
+       border-top-left-radius: 100px;
+       border-top-right-radius: 100px;
+       transform:translate(-50%,-50%);
+       box-shadow: inset 10.2px -8px 0 0 #145DA0,
+        0 0 15px #B1D4E0;
+   }
+   
+   
+   .btscake{
+       height:40vh;
+       width:78vh; 
+       border-radius: 20px;
+       position:absolute;
+       top:70%;
+       left:50%;
+       transform:translate(-50%,-50%);
+       overflow: hidden;
+       
+       border:2px solid purple;
+       background: conic-gradient(from 140deg at -20% 0%, #E0BBE4, #957DAD)
+   
+   }
+   
+
+   
+   
+   
+     
+    .decor
+    {
+       display:flex;
+       flex-direction:row;
+       margin-top:-120px;
+   }
+   .decor1,.decor2,.decor3,.decor4,.decor5,.decor6
+   {
+       height:10px;
+       width:10px;
+       background-color:#f2d938;
+       border-radius:50%;
+       margin: 5px;
+       z-index:2;
+   }
+   #box{
+    position:fixed ;
+    background-color:#e2d442;
+    top:60%;
+    left:43.2%;
+    height:90px;
+    width:120px ;
+    border:1px solid;
+}
+#ribbon4{
+    position:absolute;
+    background-color:red;
+    left:40%;
+    height:90px;
+    width:20px;
+}
+#lid{
+    position:absolute;
+    background-color:#e2d442;
+    top:52%;
+    left :42.5%;
+    height:30px;
+    width:130px;
+    border:1px solid;}
+    
+
+#ribbon3{
+    position:relative;
+    background-color:red;
+    left:40%;
+    height:30px;
+    width:20px;
+}
+#ribbon2{
+    position:absolute;
+    background-color:red;
+    top :-20px;
+    left:45px;
+    height:20px;
+    width:20px;
+    transform:skewY(40deg);
+}
+#ribbon1{
+    position:absolute;
+    background-color:red;
+    top:-20px;
+    left :60px;
+    height:20px;
+    width:20px;
+    transform:skewY(-40deg);
+}
+@keyframes open{
+    0%{
+        top:130px;
+        left:45px;
+    }
+    20%{
+        top:110px;
+        left:65px;
+        transform:rotate(10deg);
+    }
+    40%{
+        top:95px;
+        left:75px;
+        transform:rotate(20deg);
+    }
+    100%{
+        top:60px;
+        left:85px;
+        transform:rotate(60deg);
+    }
+}
+
+   
+   
